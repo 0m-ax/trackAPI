@@ -1,0 +1,20 @@
+{
+  "name": "movements-trackapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "NODE_ENV=development && node rethinkdb-setup.js && nodemon .",
+    "dbsetup": "node rethinkdb-setup.js"
+  },
+  "author": "max campbell",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "rethinkdb": "^2.3.3",
+    "rethinkdbdash": "^2.3.28",
+    "turf": "^3.0.14"
+  }
+}

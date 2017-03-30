@@ -1,0 +1,26 @@
+version: '2.1'
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfiles/Dockerfile.development
+    ports:
+     - "3000:3000"
+    volumes:
+     - .:/app
+    depends_on:
+      rethinkdb:
+        condition: service_healthy
+    links: 
+        - rethinkdb
+  rethinkdb:
+    build:
+      context: ./
+      dockerfile: Dockerfiles/Dockerfile.rethinkdb
+    ports:
+     - "8080:8080"
+    healthcheck:
+        test: ["CMD", "nc","-z","localhost", "8080"]
+        interval: 10s
+        timeout: 10s
+        retries: 5

@@ -1,0 +1,155 @@
+[{
+    "stop": true,
+    "start": true,
+    "end": false,
+    "pointNum": 0,
+    "location": [-2.234398126602173, 53.48069742730067],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 1,
+    "location": [-2.234119176864624, 53.48043565537891],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 2,
+    "location": [-2.233893871307373, 53.48020580553057],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 3,
+    "location": [-2.2337114810943604, 53.48003341732713],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 4,
+    "location": [-2.2334325313568115, 53.47978441090781],
+    "routeID": 0
+}, {
+    "stop": true,
+    "start": false,
+    "end": false,
+    "pointNum": 5,
+    "location": [-2.233282327651977, 53.47963117546189],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 6,
+    "location": [-2.2330892086029053, 53.47938216668183],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 7,
+    "location": [-2.2330033779144287, 53.47920977513184],
+    "routeID": 0
+}, {
+    "stop": true,
+    "start": false,
+    "end": false,
+    "pointNum": 8,
+    "location": [-2.2329068183898926, 53.4790437677921],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 9,
+    "location": [-2.232842445373535, 53.47878837061647],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 10,
+    "location": [-2.232617139816284, 53.478539356890074],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 11,
+    "location": [-2.2324883937835693, 53.47830949676858],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 12,
+    "location": [-2.232391834259033, 53.47814987095158],
+    "routeID": 0
+}, {
+    "stop": true,
+    "start": false,
+    "end": false,
+    "pointNum": 13,
+    "location": [-2.232273817062378, 53.477996629602295],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 14,
+    "location": [-2.232145071029663, 53.47778592184334],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 15,
+    "location": [-2.232027053833008, 53.47763906430166],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 16,
+    "location": [-2.231951951980591, 53.4774730508164],
+    "routeID": 0
+}, {
+    "stop": true,
+    "start": false,
+    "end": false,
+    "pointNum": 17,
+    "location": [-2.231801748275757, 53.47730703668159],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 18,
+    "location": [-2.2317051887512207, 53.477153792288355],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 19,
+    "location": [-2.231673002243042, 53.47699416212354],
+    "routeID": 0
+}, {
+    "stop": false,
+    "start": false,
+    "end": false,
+    "pointNum": 20,
+    "location": [-2.231619358062744, 53.476828146115075],
+    "routeID": 0
+}, {
+    "stop": true,
+    "start": false,
+    "end": true,
+    "pointNum": 21,
+    "location": [-2.2315120697021484, 53.47666851472518],
+    "routeID": 0
+}]
