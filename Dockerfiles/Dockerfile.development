@@ -3,14 +3,14 @@ FROM node:7
 
 MAINTAINER Max Campbell <maxc@maxc.in>
 
-# install nodemon
-RUN npm install nodemon -g
+# install nodemon and mocha
+RUN npm install nodemon mocha -g
 
-# import the rest
+# import the application into the app folder
 WORKDIR /app
 ADD . /app
+#install the application
 RUN npm install
-
 
 # Expose port
 EXPOSE  3000

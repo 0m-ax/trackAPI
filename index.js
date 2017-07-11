@@ -1,7 +1,11 @@
+//load express module
 const express = require('express');
+//create new express app
 var app = express();
-app.use(express.static('./'))
+//load body-parese middleware to handle post request
 app.use(require('body-parser').json());
+//load app
 app.use(require('./app'))
-app.use('/debug',require('./debug'))
+//start express http server on port 3000
 app.listen(3000)
+module.exports = app; // for testing

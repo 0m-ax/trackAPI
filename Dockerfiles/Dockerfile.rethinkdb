@@ -3,10 +3,8 @@ FROM rethinkdb:latest
 
 MAINTAINER Max Campbell <maxc@maxc.in>
 
-
+#install netcat
 RUN apt-get update
 RUN apt-get install -y netcat
-
-# Run app using npm
-
+# Run the database
 CMD ["rethinkdb", "--bind", "all"]
