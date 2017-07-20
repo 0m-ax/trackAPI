@@ -8,7 +8,7 @@
     "development": "NODE_ENV=development && node rethinkdb-setup.js && npm test && nodemon .",
     "dbsetup": "node rethinkdb-setup.js"
   },
-  "author": "max campbell",
+  "author": "Max Campbell",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.16.1",
