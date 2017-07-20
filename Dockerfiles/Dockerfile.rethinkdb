@@ -1,4 +1,4 @@
-# Set the base image to node
+# Set the base image to rethinkdb
 FROM rethinkdb:latest
 
 MAINTAINER Max Campbell <maxc@maxc.in>
